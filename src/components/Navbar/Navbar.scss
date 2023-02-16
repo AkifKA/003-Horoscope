@@ -1,5 +1,5 @@
 @import "../../scss/variables";
-
+@import "../../scss/mixins";
 .navbar {
   background-color: $cardNavBgColor;
   display: flex;
@@ -10,7 +10,6 @@
   z-index: 4;
   width: 100%;
   top: 0;
-
   .links {
     display: flex;
     font-size: 1.5rem;
@@ -20,12 +19,26 @@
       color: $secondaryColor;
       text-decoration: none;
       text-transform: uppercase;
-      border-radius: 0.5rem;
+      border-radius: 5px;
       padding: 0.5rem;
       &:hover {
         background-color: $secondaryColor;
         color: $cardNavBgColor;
       }
     }
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@include media-xsm {
+  .links {
+    flex-direction: column;
+  }
+}
+@include media-lg {
+  .links {
+    flex-direction: row;
   }
 }
