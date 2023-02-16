@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/003-Horoscope/static/css/main.63ffc878.css",
+    "main.js": "/003-Horoscope/static/js/main.32955efa.js",
+    "static/media/logo.png": "/003-Horoscope/static/media/logo.d6c42622bddf5a8e7575.png",
+    "index.html": "/003-Horoscope/index.html",
+    "main.63ffc878.css.map": "/003-Horoscope/static/css/main.63ffc878.css.map",
+    "main.32955efa.js.map": "/003-Horoscope/static/js/main.32955efa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63ffc878.css",
+    "static/js/main.32955efa.js"
+  ]
+}
